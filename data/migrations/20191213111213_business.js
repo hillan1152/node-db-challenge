@@ -28,15 +28,7 @@ exports.up = function(knex) {
             .notNullable();
 
         tbl.string('description', 255);
-        
-// MAKE SURE TO CHANGE THIS!!!
-        tbl.integer('project_id')
-            .unsigned()
-            .notNullable()
-            .references('id')
-            .inTable('project')
-            .onUpdate('CASCADE')
-            .onDelete('CASCADE');
+
     })
     .createTable('project', tbl => {
         tbl.increments();
