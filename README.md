@@ -40,11 +40,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+    Relational databases are common practice and are used for efficient data management and are time tested. SQL can help with debugging and can assist you with learning/understanding knex.js in related libraries. 
+
+
 - [ ] Why do tables need a `primary key`?
+
+    Primary Keys are used for uniquely identifying a table/anything.
+
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+    Foreign key 
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+    There would need to be a third table to link the two tables together, expect unique combinations and non-repetitive to prevent redundancy. 
+
 
 ## Minimum Viable Product
 
